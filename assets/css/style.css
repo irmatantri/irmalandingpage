@@ -1,0 +1,115 @@
+body{
+    font-family: 'Montserrat';
+}
+.wrap-content{
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+}
+.navbar-brand{
+font-weight: 600;
+}
+.nav-item{
+    font-size: 14px;
+    font-weight: 600;
+    color: #3c3c3c !important;
+    margin-right: 24px;
+}
+.nav-item.active{
+    color: #5525ed !important;
+}
+.nav-item:hover{
+    color: #5525ed !important;
+}
+.jumbotron{
+    height: 360px;
+    background-image: url('../images/jumbotron/3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    margin-top: -70px;
+}
+.navbar{
+    background-color: white !important;
+    color: #3c3c3c;
+}
+.text-jumbotron{
+    margin-top: 110px;
+    color: white;
+}
+.text-jumbotron h1{
+    font-weight: 400;
+    font-size: 24px;
+}
+.text-jumbotron p{
+    font-size: 14px;
+}
+.informasi p{
+    font-size: 16;
+    color: grey;
+}
+.informasi{
+    background-color: #dbdbdb;
+    margin-top: -35px;
+}
+.content-image{
+    height: 64px;
+    width: 64px;
+    background-color: #5525ed !important;
+    border-radius: 50%;
+    padding: 20px;
+    margin: auto;
+}
+.icon{
+    font-size: 26px;
+    color: white;
+}
+.service h6{
+    font-weight: 600;
+}
+.paragraf{
+    font-size: 14px;
+    color:grey;
+}
+footer{
+    margin-top: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-weight: 400;
+    background-color:#dbdbdb;
+    padding: 26px;
+}
+
+/* custom color */
+.bg-ungu{
+    background-color: #5525ed !important;
+    border: 0;
+}
+.text-bold{
+    font-weight: 600 !important;
+}
+
+/* view dekstop */
+@media (min-width: 992px) {
+    .navbar{
+        background-color: transparent !important;
+    }
+    .navbar-brand{
+        color: white !important;
+    }
+    .nav-item{
+    color: white !important;
+    }
+    .jumbotron{
+        height: 460px;   
+    }
+    .text-jumbotron{
+        margin-top: 100px;
+    }
+    .text-jumbotron h1{
+        font-weight: 400;
+        font-size: 36px;
+    }
+    .text-jumbotron p{
+        font-size: 18px;
+    }
+ }
